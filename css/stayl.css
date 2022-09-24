@@ -1,0 +1,512 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+.img-adaptive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+}
+/*********************
+********header********
+*********************/
+header{
+	height: 160px;
+}
+header div img{
+	display: inline-block;
+	margin-top: 70px;
+	cursor: pointer;
+}
+header div nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+header nav ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 60px 0 0 70px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #626262;
+	font-size: 19px;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+	color: #626262;
+	font-size: 19px;
+}
+/***************************
+********content-post********
+***************************/
+section.content-post{
+	margin-top: 100px;
+	padding: 0 80px !important;
+}
+section.content-post div.category a{
+	color: #b4ad9e;
+	font-size: 19px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+section.content-post div.category a:hover{
+	text-decoration: underline;
+}
+section.content-post h2{
+	color: #626262;
+	font-size: 35px;
+}
+section.content-post div.content{
+	color: #626262;
+	font-size: 19px;
+	line-height: 24px;}
+section.content-post a.comment{
+	display: inline-block;
+	color: #b4ad9e;
+	font-size: 19px;
+	text-decoration: none;
+	padding-top: 41px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+}
+section.content-post a.comment:hover{
+	text-decoration: underline;
+}
+/*****************************
+********content-post-2********
+******************************/
+section.content-post-2{
+	margin-top: 135px;
+	margin-bottom: 100px;
+	padding: 0 80px !important;
+}
+div.post-1,
+div.post-2,
+div.post-3,
+div.post-4{
+	width: 420px;
+	margin-right: 172px;
+}
+div.post-1 img,
+div.post-2 img,
+div.post-3 img,
+div.post-4 img{
+	width: 500px;
+	height: 333px;
+}
+div.post-1 div,
+div.post-2 div,
+div.post-3 div,
+div.post-4 div{
+	padding-top: 30px;
+}
+div.post-1 div a,
+div.post-2 div a,
+div.post-3 div a,
+div.post-4 div a{
+	color: #b4ad9e;
+	font-size: 19px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+div.post-1 div a:hover,
+div.post-2 div a:hover,
+div.post-3 div a:hover,
+div.post-4 div a:hover{
+	text-decoration: underline;
+}
+div.post-1 h2,
+div.post-2 h2,
+div.post-3 h2,
+div.post-4 h2{
+	color: #626262;
+	font-size: 35px;
+	width: 500px;
+}
+div.post-1 p,
+div.post-2 p,
+div.post-3 p,
+div.post-4 p{
+	color: #626262;
+	font-size: 19px;
+	width: 500px;
+	line-height: 24px;
+}
+div.post-3 img,
+div.post-4 img{
+	padding-top: 140px;
+}
+/*****************************
+********subscription**********
+*****************************/
+section.subscription{
+	padding-top: 80px;
+	height: 210px;
+	background-color: #f0f0f0;
+}
+section.subscription div{
+	text-align: center;
+	font-size: 35px;
+	color: #333333;
+	margin-bottom: 70px;
+}
+section.subscription form{
+	width: 400px;
+	margin: 0 auto;
+	border-bottom: solid 1px #000;
+
+}
+section.subscription form input{
+	border:none;
+	background: inherit;
+	width: 350px;
+	height: 30px;
+}
+section.subscription form button{
+	padding-top: 6px;
+	float: right;
+	border:none;
+	background: none;
+	cursor: pointer;
+}
+/*****************************
+********content-post-3********
+*****************************/
+section.content-post-3{
+	margin-top: 100px;
+	padding: 0 80px !important;
+}
+div.post1-1,
+div.post1-2{
+	width: 420px;
+	margin-right: 172px;
+}
+div.post1-1 img,
+div.post1-2 img{
+	margin-bottom: 30px;
+}
+div.post1-1 div a,
+div.post1-2 div a{
+	color: #b4ad9e;
+	font-size: 19px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+div.post1-1 div a:hover,
+div.post1-2 div a:hover{
+	text-decoration: underline;
+}
+div.post1-1 h2,
+div.post1-2 h2{
+	color: #626262;
+	font-size: 35px;
+	width: 500px;
+}
+div.post1-1 p,
+div.post1-2 p{
+	color: #626262;
+	font-size: 19px;
+	width: 500px;
+	line-height: 24px;
+}
+div.more{
+	text-align: center;
+}
+div.more a{
+	display: inline-block;
+	margin: 170px 0;
+	text-decoration: none;
+	color: #626262;
+	font-size: 25px;
+	border: solid 1px #626262;
+	padding: 20px 35px;
+	transition-duration: .5s;
+	transition-delay: .1s;
+}
+div.more a:hover{
+	color: #fff;
+	border: solid 1px #626262;
+	background: #626262;
+}
+/*****************************
+************footer************
+*****************************/
+footer{
+	height: 120px;
+	background-color: #f0f0f0;
+	
+}
+footer div.container div.row{
+	padding: 0 50px !important;
+}
+div.left{
+	display: flex;
+}
+div.left p{
+	padding-top: 50px;
+	margin: 0;
+	color: #000;
+	font-size: 19px;
+}
+div.left a{
+	margin: 50px 0 0 40px;
+	text-decoration: none;
+	color: #000;
+	font-size: 19px;
+
+}
+div.left a:hover{
+	text-decoration: underline;
+}
+div.right{
+	display: flex;
+	justify-content: flex-end;
+}
+div.right p{
+	padding: 50px 40px 0px 0px;
+	margin: 0;
+	color: #000;
+	font-size: 19px;
+}
+div.right a{
+	margin: 55px 20px 0 10px;
+}
+/*****************************
+*********adaptability*********
+*****************************/
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+	section.content-post div.category a{
+		font-size: 14px;
+	}
+	section.content-post h2{
+		font-size: 30px;
+	}
+	section.content-post div.content{
+		font-size: 14px;
+	}
+	section.content-post a.comment{
+		font-size: 14px;
+	}
+	section.content-post-2{
+		margin-top: 80px;
+	}
+	div.post-1,
+	div.post-2,
+	div.post-3,
+	div.post-4{
+		margin-right: 0px;
+		width: 412px;
+	}
+	div.post-1 img,
+	div.post-2 img,
+	div.post-3 img,
+	div.post-4 img{
+		width: 370px;
+		height: 247px
+	}
+	div.post-1 div a,
+	div.post-2 div a,
+	div.post-3 div a,
+	div.post-4 div a{
+		font-size: 14px
+	}
+	div.post-1 h2,
+	div.post-2 h2,
+	div.post-3 h2,
+	div.post-4 h2{
+		font-size: 30px;
+		width: 350px;
+	}
+	div.post-1 p,
+	div.post-2 p,
+	div.post-3 p,
+	div.post-4 p{
+		font-size: 14px;
+		width: 90%;
+	}
+	div.post-3 img,
+	div.post-4 img{
+		padding-top: 0px;
+	}
+	section.subscription div{
+		font-size: 30px;
+	}
+	section.subscription form {
+		width: 350px;
+	}
+	section.subscription form input{
+		width: 300px;
+	}
+	div.post1-1,
+	div.post1-2{
+		margin-right: 0px;
+		width: 412px;
+	}
+	div.post1-1 img,
+	div.post1-2 img{
+		width: 370px;
+		height: 247px
+	}
+	div.post1-1 div a,
+	div.post1-2 div a{
+		font-size: 14px
+	}
+	div.post1-1 h2,
+	div.post1-2 h2{
+		font-size: 30px;
+		width: 350px;
+	}
+	div.post1-1 p,
+	div.post1-2 p{
+		font-size: 14px;
+		width: 90%;
+	}
+	div.left p{
+		padding-top: 40px;
+	}
+	div.left a{
+		margin: 50px 20px 0 20px;
+	}
+	div.right p{
+		padding: 50px 20px 0 0;
+	}
+	div.right a{
+		margin: 55px 10px 0 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	section.content-post-2{
+		margin-top: 80px;
+	}
+	div.post-2{
+		padding-top: 80px;
+	}
+	div.post-3 img,
+	div.post-4 img{
+		padding-top: 70px;
+	}
+	div.post1-2 img{
+		padding-top: 100px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.img-adaptive{
+		width: 99%;
+	}
+	section.content-post div.category a{
+		font-size: 14px;
+	}
+	section.content-post h2{
+		font-size: 30px;
+	}
+	section.content-post div.content{
+		font-size: 14px;
+	}
+	section.content-post a.comment{
+		font-size: 14px;
+	}
+	section.content-post-2{
+		margin-top: 80px;
+	}
+	div.post-1,
+	div.post-2,
+	div.post-3,
+	div.post-4{
+		margin-right: 0px;
+		width: 412px;
+	}
+	div.post-1 img,
+	div.post-2 img,
+	div.post-3 img,
+	div.post-4 img{
+		width: 370px;
+		height: 247px
+	}
+	div.post-1 div a,
+	div.post-2 div a,
+	div.post-3 div a,
+	div.post-4 div a{
+		font-size: 14px
+	}
+	div.post-1 h2,
+	div.post-2 h2,
+	div.post-3 h2,
+	div.post-4 h2{
+		font-size: 30px;
+		width: 350px;
+	}
+	div.post-1 p,
+	div.post-2 p,
+	div.post-3 p,
+	div.post-4 p{
+		font-size: 14px;
+		width: 90%;
+	}
+	div.post-3 img,
+	div.post-4 img{
+		padding-top: 70px;
+	}
+	section.subscription div{
+		font-size: 30px;
+	}
+	section.subscription form {
+		width: 350px;
+	}
+	section.subscription form input{
+		width: 300px;
+	}
+	div.post1-1,
+	div.post1-2{
+		margin-right: 0px;
+		width: 412px;
+	}
+	div.post1-1 img,
+	div.post1-2 img{
+		width: 370px;
+		height: 247px
+	}
+	div.post1-1 div a,
+	div.post1-2 div a{
+		font-size: 14px
+	}
+	div.post1-1 h2,
+	div.post1-2 h2{
+		font-size: 30px;
+		width: 350px;
+	}
+	div.post1-1 p,
+	div.post1-2 p{
+		font-size: 14px;
+		width: 90%;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1319.98px){
+	header div nav ul li{
+		padding-right: 100px;
+	}
+	article div.post-img img{
+		width: 98%
+	}
+	div.post-1,
+	div.post-2,
+	div.post-3,
+	div.post-4{
+		margin-right: 100px;
+	}
+	div.post1-1,
+	div.post1-2{
+		margin-right: 100px;
+	}
+}
